@@ -1,0 +1,21 @@
+.nombre {
+  position: absolute;
+  top: 200px;
+  color: white;
+  left: 110vh;
+  font-size: 46px;
+}
+
+.contenedor {
+  position: relative;
+  background-color: aqua;
+  height: 90vh;
+}
+
+.subtitulo {
+  position: absolute;
+  top: 300px;
+  color: white;
+  left: 110vh;
+  font-size: 40px;
+}

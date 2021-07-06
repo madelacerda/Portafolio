@@ -1,0 +1,42 @@
+.contenedor-imagen {
+  position: relative;
+}
+
+.titulo {
+  position: absolute;
+  top: 5vh;
+  left: 100vh;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+.contenedor-texto {
+  position: absolute;
+  width: 60vh;
+  top: 15vh;
+  left: 90vh;
+}
+.contenedor-cv {
+  background-color: #107da1;
+  border-radius: 5px;
+  flex-direction: row;
+  width: max-content;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.foto {
+  height: 25px;
+}
+.descargar {
+  color: white;
+}
+
+.texto {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+}

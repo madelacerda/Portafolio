@@ -1,0 +1,22 @@
+.contenedor4 {
+  background-color: #0e2a47;
+  transform: skewY(5deg);
+  padding-top: 6px;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.contenedor-textos {
+  transform: skewY(-5deg);
+  display: flex;
+  text-align: center;
+  padding-top: 10vh;
+}
+
+.habilidades {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
