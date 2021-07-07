@@ -3,78 +3,82 @@
   transform: skewY(5deg);
   padding-top: 6px;
   height: 1000px;
-  display: flex;
-  justify-content: center;
 }
-.contenedor-textos {
+.contenedor3 .contenedor-textos {
   transform: skewY(-5deg);
   display: flex;
+  /* background-color: red; */
+  position: relative;
+  width: 100%;
   text-align: center;
-  padding-top: 10vh;
+  justify-content: center;
+  height: 100%;
 }
 
 .habilidades {
+  padding-top: 10px;
   color: white;
   font-size: 32px;
   font-weight: bold;
+  text-align: center;
 }
 
 .icono-react {
   position: absolute;
-  top: 150px;
-  right: 620px;
+  top: 16%;
+  right: 35%;
   height: 100px;
   width: 100px;
 }
 
 .icono-html {
   position: absolute;
-  top: 200px;
-  right: 250px;
+  top: 20%;
+  right: 15%;
   height: 100px;
   width: 100px;
 }
 
 .icono-js {
   position: absolute;
-  top: 200px;
-  left: 550px;
+  top: 60%;
+  right: 10%;
   height: 100px;
   width: 100px;
 }
 .icono-node {
   position: absolute;
-  top: 700px;
-  left: -50px;
+  top: 69%;
+  left: 10%;
   height: 100px;
   width: 100px;
 }
 
 .icono-css {
   position: absolute;
-  bottom: 100px;
-  right: 760px;
+  bottom: 5%;
+  left: 65%;
   height: 100px;
   width: 100px;
 }
 .icono-mongo {
   position: absolute;
-  bottom: 70px;
-  left: 300px;
+  bottom: 10%;
+  left: 30%;
   height: 100px;
   width: 100px;
 }
 .icono-mysql {
   position: absolute;
-  bottom: 70px;
-  left: 600px;
+  top: 10%;
+  right: 60%;
   height: 100px;
   width: 100px;
 }
 .icono-redux {
   position: absolute;
-  bottom: 670px;
-  left: 300px;
+  top: 30%;
+  left: 10%;
   height: 100px;
   width: 100px;
 }
