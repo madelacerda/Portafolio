@@ -25,62 +25,114 @@
 
 .icono-react {
   position: absolute;
+  background-color: white;
+  border-radius: 50px;
   top: 16%;
   right: 35%;
   height: 100px;
   width: 100px;
+
+  animation: animation3 2s ease-in-out infinite alternate;
+}
+
+@keyframes animation3 {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(20px);
+  }
+}
+
+@keyframes animation4 {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
+
+@keyframes fadein {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 .icono-html {
   position: absolute;
+  background-color: white;
+  border-radius: 50px;
   top: 20%;
   right: 15%;
   height: 100px;
   width: 100px;
+  animation: animation4 2s ease-in-out infinite alternate;
 }
 
 .icono-js {
   position: absolute;
+  background-color: white;
+  border-radius: 50px;
   top: 60%;
   right: 10%;
   height: 100px;
   width: 100px;
+  animation: animation4 2s ease-in-out infinite alternate;
 }
 .icono-node {
   position: absolute;
+  background-color: white;
+  border-radius: 50px;
   top: 69%;
   left: 10%;
   height: 100px;
   width: 100px;
+  animation: animation4 2s ease-in-out infinite alternate;
 }
 
 .icono-css {
   position: absolute;
+  background-color: white;
+  border-radius: 50px;
   bottom: 5%;
   left: 65%;
   height: 100px;
   width: 100px;
+  animation: animation3 2s ease-in-out infinite alternate;
 }
 .icono-mongo {
   position: absolute;
   bottom: 10%;
+  background-color: white;
+  border-radius: 50px;
   left: 30%;
   height: 100px;
   width: 100px;
+  animation: animation3 2s ease-in-out infinite alternate;
 }
 .icono-mysql {
   position: absolute;
   top: 10%;
   right: 60%;
+  background-color: white;
+  border-radius: 50px;
   height: 100px;
   width: 100px;
+  animation: animation3 2s ease-in-out infinite alternate;
 }
 .icono-redux {
   position: absolute;
   top: 30%;
   left: 10%;
+  background-color: white;
+  border-radius: 50px;
   height: 100px;
   width: 100px;
+  animation: animation4 2s ease-in-out infinite alternate;
 }
 
 .cont-hab-1 {

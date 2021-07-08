@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, Component } from "react";
 import "./section4.css";
-import fotocal from "../../svg/undraw_feeling_proud_qne1.svg";
+import fotocal from "../../svg/svg-calificaciones.svg";
 import fotograd from "../../svg/graduation-cap.svg";
 import fototrabajos from "../../svg/suitcase.svg";
 const Section4 = () => {
@@ -16,6 +16,7 @@ const Section4 = () => {
           <div className="contenedor-estudios-trabajos">
             <div className="cont-titulo-estudio" onClick={() => setShow(true)}>
               <img src={fotograd} className="foto-grad" />
+
               <p className="txt-trabajos">Estudios</p>
             </div>
             <div
@@ -50,7 +51,13 @@ const Section4 = () => {
         </div>
 
         <div className="cont-right">
-          <img src={fotocal} className="foto-calificaciones" />
+          <object
+            type="image/svg+xml"
+            data={fotocal}
+            className="foto-calificaciones"
+          >
+            svg-animation
+          </object>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import Foto from "./foto";
+import fotopc from "../../svg/undraw_programming_2svr.svg";
 import "./section2.css";
 import FotoDescarga from "../../svg/file-download.svg";
 
@@ -7,7 +7,9 @@ export const Section2 = () => {
   return (
     <div className="contenedor-general2">
       <div className="contenedor-imagen">
-        <Foto />
+        <object type="image/svg+xml" data={fotopc} className="foto-pc">
+          svg-animation
+        </object>
       </div>
 
       <div className="contenedor-texto">

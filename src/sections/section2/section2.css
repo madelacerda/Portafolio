@@ -16,6 +16,10 @@
   font-weight: bold;
   font-size: 36px;
 }
+.foto-pc {
+  height: 100%;
+  width: 100%;
+}
 .contenedor-texto {
   width: 50%;
   height: 100%;

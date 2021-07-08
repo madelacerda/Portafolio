@@ -1,0 +1,54 @@
+.contenedor5 {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.cont-port {
+  height: 180px;
+  width: 180px;
+  display: flex;
+  position: absolute;
+  right: 80%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.img-portafolio {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+.foto-prod {
+  height: 100%;
+  width: 100%;
+}
+.cont-foto-prod {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  right: 10%;
+}
+
+.contenedor5 .titulo {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.n-portafolio {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.cont-titulo-port {
+  position: absolute;
+  top: 0;
+}
