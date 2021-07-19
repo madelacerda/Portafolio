@@ -162,3 +162,101 @@
   bottom: 400px;
   top: 400px;
 }
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 1279px) and (max-width: 1619px) {
+
+  .cont-hab-2 {
+    position: absolute;
+    width: 300px;
+    left: 25%;
+    bottom: 400px;
+    top: 400px;
+  }
+
+  .cont-hab-1 {
+    position: absolute;
+    width: 300px;
+    right: 25%;
+    bottom: 400px;
+    top: 400px;
+  }
+
+
+
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1279px) {
+
+  .cont-hab-2 {
+    position: absolute;
+    width: 300px;
+    left: 10%;
+    bottom: 400px;
+    top: 400px;
+  }
+
+  .cont-hab-1 {
+    position: absolute;
+    width: 300px;
+    right: 10%;
+    bottom: 400px;
+    top: 400px;
+  }
+
+  .icono-redux {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background-color: white;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    animation: animation4 2s ease-in-out infinite alternate;
+  }
+  .icono-js {
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    top: 80%;
+    right: 10%;
+    height: 100px;
+    width: 100px;
+    animation: animation4 2s ease-in-out infinite alternate;
+  }
+
+  .icono-node {
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    top: 80%;
+    left: 10%;
+    height: 100px;
+    width: 100px;
+    animation: animation4 2s ease-in-out infinite alternate;
+  }
+
+  .icono-mysql {
+    position: absolute;
+    top: 15%;
+    right: 60%;
+    background-color: white;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    animation: animation3 2s ease-in-out infinite alternate;
+  }
+
+}
+
+/* Smartphones in landscape mode */
+
+@media only screen and (min-width: 600px) and (max-width: 959px) {
+
+}
+
+/* Smartphones in portrait mode  */
+
+@media only screen and (max-width: 599px) {
+
+}

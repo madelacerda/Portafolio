@@ -17,3 +17,46 @@
   left: 110vh;
   font-size: 40px;
 }
+/* MEDIA QUERIES */
+@media only screen and (min-width: 1279px) and (max-width: 1619px) {
+  
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1279px) {
+
+  .nombre {
+    position: absolute;
+    color: white;
+    font-size: 46px;
+    left: 50%;
+    top:30%;
+    
+  }
+
+  .subtitulo {
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    left:50%;
+    top:50%;
+
+  }
+  .contenedor {
+    position: relative;
+  
+
+  }
+}
+
+/* Smartphones in landscape mode */
+
+@media only screen and (min-width: 600px) and (max-width: 959px) {
+
+
+}
+
+/* Smartphones in portrait mode  */
+
+@media only screen and (max-width: 599px) {
+
+}
